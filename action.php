@@ -25,7 +25,6 @@
 		$hasil = mysqli_query($koneksi, $sql);
 		if (!$hasil) {
 		?>
-		<table border="1">
 		<h1 class="display-6">Data Gagal Ditambahkan</h1>
 		<?php
 		}
@@ -33,7 +32,6 @@
 		?>
 		<h1 class="display-6">Data Berhasil Ditambahkan</h1>
 		<button type="button" class="btn btn-success btn-lg"><a style="text-decoration: none; color: white;" href="data_santri.php">Lihat Data Santri</a></button>
-		</table>
 		<?php
 		}
 	?>
